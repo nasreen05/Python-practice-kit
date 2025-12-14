@@ -1,0 +1,32 @@
+str="reshma nasreen"
+ch=str[4]
+print(ch)
+
+#'''''''''''''''''''' Slicing '''''''''''''''''''
+str="apna college"
+print(str[5:len(str)])
+print(str[5:4]) 
+str="rafia nasreen"
+print(str[-5:-1])
+
+#-------------------- string function---------------------------
+str="i  am studying python from reshma college"
+print(str.endswith("app"))
+
+
+str="i  am studying python from reshma college"
+print(str.capitalize())
+print(str)
+
+
+str="i  am studying python from reshma college"
+print(str.replace("0","a"))
+
+
+str="i  am studying python from reshma college"
+print(str.find("from"))
+
+str="i  am studying python from reshma college"
+print(str.count("from"))
+
+
